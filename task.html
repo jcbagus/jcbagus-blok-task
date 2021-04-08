@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blok.ai</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"/>
+    </noscript>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+  </head>
+  <body id="top">
+   <ul id="loadingScreen">
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+   </ul> 
+    <div class="main-div hide">
+      <div class="container">
+        <div class="blok-icon">Blok</div>
+      </div>
+
+      <div class="tf-work-section">
+        <div class="main1">
+         <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tm-4-col-textbox blokBold instant">INSTANT DIGITAL VALUATION</div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blokBold main-texts">What type of building are you evaluationg?</div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 tm-4-col-textbox">
+                <div class="propertyTypeBox">
+                    <div class="propertyTypeImg propertyImg1">
+                    </div>
+                    <div class="propertyTypeText">
+                        APARTMENT
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 tm-4-col-textbox">
+                  <div class="propertyTypeBox">
+                      <div class="propertyTypeImg propertyImg2">
+                      </div>
+                      <div class="propertyTypeText">
+                          TERRACED
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 tm-4-col-textbox">
+                  <div class="propertyTypeBox">
+                      <div class="propertyTypeImg propertyImg3">
+                      </div>
+                      <div class="propertyTypeText">
+                          SEMI-DETACHED
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 tm-4-col-textbox">
+                  <div class="propertyTypeBox">
+                      <div class="propertyTypeImg propertyImg4">
+                      </div>
+                      <div class="propertyTypeText">
+                          DETACHED
+                      </div>
+                  </div>
+              </div>
+            </div>            
+          </div>
+
+          <div class="instant-container container">
+              <div class="row">
+                  <div class="tm-3-col-container">        
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                          <div class="below-info-div">
+                              <div class="below-info-img info-img1"></div>
+                              <div class="infor-text-div">
+                                  <div class="info-text"><span>2min</span> instant</div>
+                                  <div class="info-text">digital valuation</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="tm-3-col-container">        
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                          <div class="below-info-div">
+                              <div class="below-info-img info-img2"></div>
+                              <div class="infor-text-div">
+                                  <div class="info-text"><span id="valuation-value">364168</span> valuations</div>
+                                  <div class="info-text">made since 2018</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="tm-3-col-container">        
+                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                          <div class="below-info-div">
+                              <div class="below-info-img info-img3"></div>
+                              <div class="infor-text-div">
+                                  <div class="info-text"><span>4,8</span> rating on Google</div>
+                                  <div class="info-text">(brokers average 3,2)</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--progress bar -->
+            <div class="contentContainer hide">
+              <div class="skillBar">
+                <div class="skillBarContainer">
+                  <div class="skillBarValue value-20"></div>
+                </div>
+              </div>
+            </div>
+
+            <!--section2 -->
+            <div class="section2">
+             <div class="container">
+              <div class="row">
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blokBold main-texts text-center">How big is the apartment?</div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="size-img"></div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="range-div">
+                    <input class="inputSizeNo" type="range" value="10" step="1" min="10" max="200">
+                    <div class="value-labels">
+                      <div class="max-value">10</div>
+                      <div class="min-value">200</div>
+                    </div>
+                    <div class="output-div">
+                      <output class="range-output sizeNo">10</output>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 webNextBtn">
+                  <div class="web-btn" id="webNext">NEXT</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+           <!--section3 -->
+            <div class="section3">
+             <div class="container">
+              <div class="row">
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blokBold main-texts text-center">How many rooms does it have?</div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="size-img rooms-img"></div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="range-div">
+                    <input class="inputRoomNo" type="range" value="1" step="1" min="1" max="10">
+                    <div class="value-labels">
+                      <div class="max-value">1</div>
+                      <div class="min-value">10</div>
+                    </div>
+                    <div class="output-div">
+                      <output class="range-output roomNo">1</output>
+                    </div>
+                  </div>
+                </div>
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 webNextBtn">
+                  <div class="web-btn last-web">NEXT</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          </div>
+        </div>
+     <div class="mobile-navigation">
+        <div class="btn-mobile-div">
+          <div class="btn-div-mobile">
+            <div class="back-btn-mobile">
+              <div class="back-btn-img"></div>
+            </div>
+          </div>
+          <div class="btn-div-mobile">
+            <div class="next-btn-mobile">
+            NEXT
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <section class="contact-area hide" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 offset-lg-3">
+                    <div class="contact-content text-center">
+                        <a href="#"><img src="https://blok-website.s3.eu-central-1.amazonaws.com:443/images/blok_logo.svg" alt="blok.ai" style="width: 100px;"></a>
+                        <p>Combines the best of an innovative online service and a professional broker</p>
+                        <div class="hr"></div>
+                        <h6>1120 Lorem ipsum dolor sit amet, KC 179050, Chandigarh.</h6>
+                        <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="hide"id="footer">
+        <p>Copyright &copy; 2019 <img src="https://blok-website.s3.eu-central-1.amazonaws.com:443/images/blok_logo.svg" alt="blok.ai" style="width: 50px;"> All Rights Reserved.</p>
+    </footer>
+      
+      <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+      <script src="scripts/parallax.min.js?ver=1.2.0"></script>
+      <script src="scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
